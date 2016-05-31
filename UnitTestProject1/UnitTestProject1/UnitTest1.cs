@@ -12,5 +12,11 @@ namespace UnitTestProject1
         {
             Thread.Sleep(10000);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.AreEqual(1, 2);
+        }
     }
 }
